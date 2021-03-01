@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/image_view_chat_home"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="32dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:text="Username"
+            android:id="@+id/text_view_user_name"
+            android:layout_toRightOf="@id/image_view_chat_home"
+            />
+
+        <TextView
+            android:id="@+id/text_view_receiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_name"
+            android:layout_alignLeft="@id/text_view_message"
+            android:layout_toRightOf="@id/image_view_chat_home"
+            android:maxLines="1"
+            android:text="Receiver:" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="4"
+            android:id="@+id/text_view_message"
+            android:text="message"
+            android:layout_below="@id/image_view_chat_home"
+            android:layout_alignLeft="@id/text_view_user_name"
+            android:layout_toRightOf="@id/image_view_chat_home"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

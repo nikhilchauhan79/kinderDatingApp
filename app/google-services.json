@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "925764419454",
+    "firebase_url": "https://kinder-e37a2-default-rtdb.firebaseio.com",
+    "project_id": "kinder-e37a2",
+    "storage_bucket": "kinder-e37a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925764419454:android:0b3f0973539f45274a7d2f",
+        "android_client_info": {
+          "package_name": "com.example.kinder"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925764419454-0dl7ejgf7oebiikncv24tmq0opg5r4qp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kinder",
+            "certificate_hash": "f758cd10f6ad42439652d9d190b1578105f209db"
+          }
+        },
+        {
+          "client_id": "925764419454-6nvts3a6qvb1tngjrktiu6j3cvlvdkfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD5i3dze-5WmfBWiKLKO4inf6TXS5_9YM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925764419454-6nvts3a6qvb1tngjrktiu6j3cvlvdkfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

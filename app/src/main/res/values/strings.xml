@@ -1,0 +1,19 @@
+<resources>
+    <string name="Kinder">kinder</string>
+
+    <string name="login_with_facebook">Login with Facebook</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="facebook_app_id">769223780636420</string>
+    <string name="fb_login_protocol_scheme">fb769223780636420</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="app_name">Kinder</string>
+<!--    <string name="default_web_client_id">925764419454-0dl7ejgf7oebiikncv24tmq0opg5r4qp.apps.googleusercontent.com</string>-->
+</resources>

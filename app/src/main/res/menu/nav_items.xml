@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="like"
+        android:icon="@drawable/vector_6"
+        android:id="@+id/nav_like"></item>
+    <item android:title="like"
+        android:icon="@drawable/exclude_2"
+        android:id="@+id/nav_notif"></item>
+
+    <item android:id="@+id/place_holder"
+        android:title=""></item>
+
+    <item android:title="like"
+        android:icon="@drawable/group_7"
+        android:id="@+id/nav_message"></item>
+    <item android:title="like"
+        android:icon="@drawable/group_4"
+        android:id="@+id/nav_profile"></item>
+
+</menu>
